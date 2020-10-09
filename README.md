@@ -167,6 +167,6 @@ The `issuer` property is the value of `AUTH0_ISSUER_URL`.
 
 With the `.env` configuration values set, run the API server by issuing the following command:
  
- {% prism bash %}
- npm start
- {% endprism %}
+```bash
+npm start
+```
