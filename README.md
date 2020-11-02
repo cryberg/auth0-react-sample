@@ -32,19 +32,19 @@ As such, click on the "Settings" tab of your Auth0 Application page and fill in 
 **Allowed Callback URLs**
 
 ```bash
-http://localhost:4040
+http://localhost:3000
 ```
 
 **Allowed Logout URLs**
 
 ```bash
-http://localhost:4040
+http://localhost:3000
 ```
 
 **Allowed Web Origins**
 
 ```bash
-http://localhost:4040
+http://localhost:3000
 ```
 
 **Scroll down and click the "Save Changes" button.**
@@ -61,7 +61,7 @@ Populate `.env` as follows:
 REACT_APP_AUTH0_DOMAIN=
 REACT_APP_AUTH0_CLIENT_ID=
 REACT_APP_AUTH0_AUDIENCE=https://express.sample
-REACT_APP_SERVER_URL=http://localhost:6060
+REACT_APP_SERVER_URL=http://localhost:7000
 ```
 
 The value of `REACT_APP_AUTH0_DOMAIN` is the "Domain" value from the "Settings".
@@ -76,9 +76,9 @@ Run the client project:
 npm start
 ```
 
-The application runs by on port `4040` to mitigate conflicting with other client applications you may be running.
+The application runs by on port `3000` to mitigate conflicting with other client applications you may be running.
 
-Visit [`http://localhost:4040/`](http://localhost:4040/) to access the starter application.
+Visit [`http://localhost:3000/`](http://localhost:3000/) to access the starter application.
 
 ## Set up the Demo API
 
@@ -135,8 +135,8 @@ touch .env
 Populate this `auth0-express-sample/.env` file as follows:
 
 ```bash
-SERVER_PORT=6060
-CLIENT_ORIGIN_URL=http://localhost:4040
+SERVER_PORT=7000
+CLIENT_ORIGIN_URL=http://localhost:3000
 AUTH0_AUDIENCE=
 AUTH0_ISSUER_URL=
 ```
