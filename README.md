@@ -1,6 +1,8 @@
 # Easy User Authentication for React Apps
 
-This repository hosts a React project that defines a Single-Page Application (SPA). You'll secure access to some of its routes using Auth0 User Authentication.
+This repository hosts a React project that defines a Single-Page Application (SPA). You'll secure access to some of its routes using Auth0 User Authentication. 
+Relates to this tutorial: https://auth0.com/blog/complete-guide-to-react-user-authentication/
+The associated BE repo is here: https://github.com/cryberg/auth0-express-js-sample
 
 ## Get Started
 
